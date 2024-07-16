@@ -7,3 +7,4 @@ public class HelloRunnable implements Runnable {
         System.out.println(Thread.currentThread().getName() + ": run()");
     }
 }
+
