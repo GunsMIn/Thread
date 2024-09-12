@@ -9,12 +9,15 @@ import static com.example.javathread.util.ThreadUtils.sleep;
 
 public class BoundedQueueV2 implements BoundedQueue {
 
+
     private final Queue<String> queue = new ArrayDeque<>();
+
     private final int max;
 
     public BoundedQueueV2(int max) {
         this.max = max;
     }
+
 
 
     /**
